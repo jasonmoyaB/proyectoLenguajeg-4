@@ -7,7 +7,8 @@ values(2,'jugar');
 
 DELETE FROM fide_usuarios_tb
 WHERE usuario_id IN (1, 2);
-
+DELETE FROM fide_roles_tb
+WHERE rol_id IN (1, 2);
 
 insert into fide_usuarios_tb(usuario_id, nombre, correo, contraseña, rol_id)
 values(1,'jason','jason@gmail.com','holaaa',1);
