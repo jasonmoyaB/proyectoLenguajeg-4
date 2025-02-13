@@ -1,0 +1,20 @@
+# Archivos generados por compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Directorios generados por Maven
+/target/
+
+# Directorios generados por Eclipse
+.classpath
+.project
+.settings/
+
+# Directorios generados por IntelliJ IDEA
+.idea/
+
+# Otros archivos comunes
+*.log
+*.tmp
