@@ -1,101 +1,93 @@
-*{
+/* Reset global styles */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    
-}
-body{
-    background-color: white;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    background: url(https://images.alphacoders.com/127/thumb-1920-1275722.jpg) no-repeat center; 
+    font-family: 'Arial', sans-serif;
 }
 
-.login-container img{
-    margin-left: 2%;
-    margin-top: 3%;
+body {
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.login-container{
-    box-shadow: 1px 0px 8px rgba(255, 255, 255, 0.212);
-    height: 560px;
+
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 450px;
-    margin-left: 40%;
-    margin-top: 10%;
-    border-radius: 40px;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
     backdrop-filter: blur(0.4rem);
     -webkit-backdrop-filter: blur(0.4rem);
 }
-.login-container h1{
-    text-align: center;
-    font-family: Arial;
-    margin-top: 15%;
-    color: #fff;
+
+
+.login-container img {
+    max-width: 150px;
+    margin-bottom: 20px;
 }
-.login-container{
-    text-align: center;
+
+
+.login-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1a73e8;
 }
-.login-input label{
+
+
+.login-input label,
+.login-password label {
     display: block;
-    margin-top: 10%;
-    font-size: 25px;
-    margin-right: 30%;
-    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
 }
-.login-input input{
-    padding: 2%;
-    width: 50%;
-    margin-top: 5%;
-    border: 1px solid white;
+
+
+.login-input input,
+.login-password input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.075);
-    color: #fff;
+    border: 1px solid #ddd;
+    background-color: #f1f1f1;
+    font-size: 16px;
 }
-.login-password label{ 
-    display: block;
-    margin-top: 10%;
-    font-size: 25px;
-    margin-right: 20%;
-    color: #fff;
-}
-.login-password input{
-    padding: 2%;
-    width: 50%;
-    margin-top: 5%;
-    border-radius: 8px;
-    border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.075);
-    color: #fff;
-}
-.login-button input{
-    background-color: rgb(8, 114, 253);
+
+
+.login-button input {
+    background-color: #007bff;
     color: white;
-    margin-top: 10%;
-    padding:3%;
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
     border-radius: 8px;
-    width: 60%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-    cursor: pointer;
     border: none;
-    transition: all 0.3s;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-.login-button input:hover{
-    box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.315);
-    color: grey;
-    transform: scale(1.1);
+
+.login-button input:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
-.volver {
-    text-align: center;
-    margin-top: 1%;
-    margin-left: 3%;
-}
-.volver a{
+.volver a {
+    font-size: 16px;
+    color: #007bff;
     text-decoration: none;
-    font-size: 20px;
-    color: rgb(255, 254, 254); 
+    margin-top: 15px;
 }
-.volver a:hover{
-    color: rgba(228, 228, 228, 0.267);
+
+.volver a:hover {
+    text-decoration: underline;
 }
+
