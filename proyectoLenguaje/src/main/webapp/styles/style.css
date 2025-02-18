@@ -134,5 +134,67 @@ header{
 
 
 
+/*footer*/
+footer {
+    background-color: #fff;
+    color: rgb(22, 118, 207);
+    padding: 40px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(22, 118, 207);
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-link {
+    color: rgb(22, 118, 207);
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #7bc6ff;
+}
+
+.footer-socials a {
+    color: rgb(22, 118, 207);
+    font-size: 24px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+    color: #7bc6ff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+
+
+
 
 
