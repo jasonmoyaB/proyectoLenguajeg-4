@@ -18,3 +18,4 @@
 # Otros archivos comunes
 *.log
 *.tmp
+/proyectoLenguaje/target/
