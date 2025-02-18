@@ -132,11 +132,53 @@ header{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.moreInfo {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.moreInfo h2 {
+    color: rgb(22, 118, 207);
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.moreInfo p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.info img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
 
 
 /*footer*/
 footer {
-    background-color: #fff;
+    margin-top: 5%;
+    background-color: #e0e0e06c;
     color: rgb(22, 118, 207);
     padding: 40px 0;
     font-family: 'Roboto', sans-serif;
