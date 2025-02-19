@@ -15,7 +15,7 @@ public class Conexion {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             con= DriverManager.getConnection(url,user,pass);
         }catch(Exception e){
-            
+            System.out.println("error al conectar a la Base de datos");
         }
         return con;
         
