@@ -8,7 +8,7 @@ public class Conexion {
     Connection con;
     String url="jdbc:oracle:thin:@localhost:1521:xe";
     String user="proyectoMain";
-    String pass="mrbenes12";
+    String pass="mbrenes12";
     
     public Connection conectar() throws SQLException{
         try {
