@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis tareas</title>
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="styles/stylepass.css"/>
 </head>
 <body>
-    <h1>asdasd</h1>
+    <h1>Bienvenido a MyTask</h1>
+    <p>Usuario logueado: <span id="user-name"></span></p>
+    <form action="LogoutServlet" method="POST">
+        <button type="submit">Cerrar sesión</button>
+    </form>
+
+    <script>
+        // Mostrar el nombre del usuario usando sessionStorage
+        document.getElementById("user-name").textContent = sessionStorage.getItem("usuario") || "Invitado";
+    </script>
 </body>
 </html>
+
