@@ -13,6 +13,29 @@
         <title>Login</title>
     </head>
     <body>
-        
+        <form action="">
+            <div class="login-container">
+                <h1>Inicia sesión</h1>
+                <div class="login-input">
+                    <label for="">Usuario</label>
+                    <input type="text" name="" id="usuario" required>
+                </div>
+                <div class="login-password">
+                    <label for="">Contraseña</label>
+                    <input type="text" name="" id="clave" required>
+                </div>
+                <div class="login-button">
+                    <input type="button" value="Entrar" onclick="login()">
+
+                </div>
+                <div class="volver">
+                    <a href="index.jsp">Volver</a>
+                </div>
+
+            </div>
+
+
+        </form>
+
     </body>
 </html>

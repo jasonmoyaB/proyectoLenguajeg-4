@@ -13,7 +13,7 @@
         <title>Home</title>
     </head>
     <body>
-        <header>
+       <header>
         <nav class="nav">
             <ul>
                 <a class="logo" href="index.jsp">CODINGRAPH;</a>
@@ -23,11 +23,10 @@
             </ul>
         </nav>
     </header>
-
     <div class="portada">
-        <h1>¿Por qué elegir <br> Codingraphe?</h1>
+        <h1>¿Por qué elegir <br> CODINGRAPH;?</h1>
         <div class="parrafoPortada">
-            <p>En Codingraphe, creemos que la gestión de tareas no tiene por qué ser una carga. Ofrecemos una plataforma
+            <p>En CODINGRAPH;, creemos que la gestión de tareas no tiene por qué ser una carga. Ofrecemos una plataforma
                 simple y eficiente donde puedes organizar tu día a día sin complicaciones.</p>
         </div>
 
@@ -97,7 +96,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 Codingraphe. Todos los derechos reservados.</p>
+            <p>&copy; 2025 CODINGRAPH;. Todos los derechos reservados.</p>
         </div>
     </footer>
     </body>
