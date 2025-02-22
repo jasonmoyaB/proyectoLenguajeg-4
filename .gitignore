@@ -19,3 +19,6 @@
 *.log
 *.tmp
 /proyectoLenguaje/target/
+/LenguajeBD_Proyecto/target/
+/lenguajeBD-Proyecto/target/
+/LenguajeBD/nbproject/private/
