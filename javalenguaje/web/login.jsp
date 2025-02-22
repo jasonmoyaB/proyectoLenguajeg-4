@@ -13,29 +13,27 @@
         <title>Login</title>
     </head>
     <body>
-        <form action="">
+        <form action="LoginServlet" method="post">
             <div class="login-container">
                 <h1>Inicia sesión</h1>
                 <div class="login-input">
-                    <label for="">Usuario</label>
-                    <input type="text" name="" id="usuario" required>
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="usuario" id="usuario" required>
                 </div>
                 <div class="login-password">
-                    <label for="">Contraseña</label>
-                    <input type="text" name="" id="clave" required>
+                    <label for="clave">Contraseña</label>
+                    <input type="password" name="clave" id="clave" required>
                 </div>
                 <div class="login-button">
-                    <input type="button" value="Entrar" onclick="login()">
-
+                    <input type="submit" value="Entrar">
                 </div>
                 <div class="volver">
                     <a href="index.jsp">Volver</a>
                 </div>
-
+                <% if (request.getParameter("error") != null) { %>
+                    <p style="color:red;">Usuario o contraseña incorrectos</p>
+                <% } %>
             </div>
-
-
         </form>
-
     </body>
 </html>
