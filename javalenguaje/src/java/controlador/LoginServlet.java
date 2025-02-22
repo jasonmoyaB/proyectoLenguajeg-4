@@ -17,11 +17,14 @@ public class LoginServlet extends HttpServlet {
 
         UsuarioDAO usuarioDAO = new UsuarioDAO();
         if (usuarioDAO.validarUsuario(username, password)) {
+            String rol = usuarioDAO.obtenerRolUsuario(username, password); // Obtener el rol
             HttpSession session = request.getSession();
             session.setAttribute("user", username);
+            session.setAttribute("role", rol); // Guardar el rol en la sesión
             response.sendRedirect("bienvenido.jsp");
         } else {
             response.sendRedirect("login.jsp?error=true");
         }
     }
 }
+
