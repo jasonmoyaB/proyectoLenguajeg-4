@@ -32,10 +32,10 @@
         <header>
             <nav class="nav">
                 <ul>
-                    <a class="logo" href="index.jsp">CODINGRAPH;</a>
-                    <a class="nav-link" href="">Rol::Administrador</a>
-                    <a class="nav-link" href="index.jsp">Log-out</a>
+                    <a class="logo" href="">CODINGRAPH;</a>
                     
+                    <a class="nav-link" href="index.jsp">Log-out</a>
+
                 </ul>
             </nav>
         </header>
@@ -53,11 +53,28 @@
             <% if ("admin".equals(rol)) { %>
             <!-- Formulario para agregar un nuevo rol -->
             <h3>Agregar un nuevo rol</h3>
-            <form action="AgregarRolServlet" method="post">
+            <form action="AgregarRolServlet" method="post" id="rolForm">
                 <label for="nombre_rol">Nombre del Rol:</label>
                 <input type="text" id="nombre_rol" name="nombre_rol" required>
                 <button type="submit">Agregar Rol</button>
             </form>
+
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <script>
+                document.getElementById("rolForm").addEventListener("submit", function (event) {
+                    event.preventDefault(); // Evita que el formulario se envíe inmediatamente
+
+                    Swal.fire({
+                        title: "Rol agregado",
+                        text: "El rol se ha agregado correctamente.",
+                        icon: "success",
+                        confirmButtonText: "OK"
+                    }).then(() => {
+                        this.submit(); // Envía el formulario después de la alerta
+                    });
+                });
+            </script>
+
 
             <!-- Formulario para agregar un nuevo usuario -->
             <h3>Agregar un nuevo usuario</h3>
@@ -79,6 +96,7 @@
                 </select>
 
                 <button type="submit">Agregar Usuario</button>
+                
             </form>
 
         </form>
@@ -95,6 +113,7 @@
             </div>
         </div>
     </footer>
+   
 </body>
 </html>
 
