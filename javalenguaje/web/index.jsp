@@ -99,5 +99,13 @@
             <p>&copy; 2025 CODINGRAPH;. Todos los derechos reservados.</p>
         </div>
     </footer>
+<<<<<<< HEAD:javalenguaje/web/index.jsp
     </body>
+=======
+
+
+
+</body>
+
+>>>>>>> jason:proyectoLenguaje/src/main/webapp/index.html
 </html>
