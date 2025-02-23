@@ -17,8 +17,8 @@
         <nav class="nav">
             <ul>
                 <a class="logo" href="index.jsp">CODINGRAPH;</a>
-                <a class="nav-link" href="probarJS.jsp">Mi dia</a>
-                <a class="nav-link" href="myTasks.jsp">Mis tareas </a>
+                <a class="nav-link" href="probarJS.jsp">Quienes somos</a>
+                <a class="nav-link" href="myTasks.jsp">Contacto</a>
                 <a class="nav-link" href="login.jsp">Log-in</a>
             </ul>
         </nav>
@@ -26,7 +26,7 @@
     <div class="portada">
         <h1>¿Por qué elegir <br> CODINGRAPH;?</h1>
         <div class="parrafoPortada">
-            <p>En CODINGRAPH;, creemos que la gestión de tareas no tiene por qué ser una carga. Ofrecemos una plataforma
+            <p>En CODINGRAPH; creemos que la gestión de tareas no tiene por qué ser una carga. Ofrecemos una plataforma
                 simple y eficiente donde puedes organizar tu día a día sin complicaciones.</p>
         </div>
 

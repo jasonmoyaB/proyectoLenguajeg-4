@@ -33,7 +33,9 @@
             <nav class="nav">
                 <ul>
                     <a class="logo" href="index.jsp">CODINGRAPH;</a>
+                    <a class="nav-link" href="">Rol::Administrador</a>
                     <a class="nav-link" href="index.jsp">Log-out</a>
+                    
                 </ul>
             </nav>
         </header>
