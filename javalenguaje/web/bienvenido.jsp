@@ -103,6 +103,8 @@
         <% } else if ("user".equals(rol)) { %>
         <!-- Aquí puedes poner contenido exclusivo para usuarios -->
         <h3>Contenido exclusivo para usuarios.</h3>
+        
+        <h1>esto es solo una prueba para problar la rama jason</h1>
         <% } %>
     </div>
 
