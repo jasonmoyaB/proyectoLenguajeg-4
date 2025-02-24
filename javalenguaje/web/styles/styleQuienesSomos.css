@@ -1,0 +1,105 @@
+body{
+    background-color: #ececec;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    width: 50%;
+    height: 70px;
+    padding: 10px 60%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+    top: 0;
+}
+.logo-what{
+    height: 88px;
+    margin-left: 93%;
+    position: fixed;
+    margin-top: 42%;
+    cursor: pointer;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    color: rgb(1, 141, 255);
+    font-weight: bold;
+    position: absolute;left: 52px;
+    font-size: 50px; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    
+}
+.logo:hover{
+    color: rgb(83, 110, 201);
+    
+}
+.nav-link {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(22, 118, 207);
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; 
+}
+
+.nav-link:hover {
+    color: #d6dce0; 
+    transform: scale(1.1); 
+    background-color: rgba(22, 118, 207, 0.082); 
+}
+
+
+
+.backimage{
+    margin-top: 9%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.containerUs{
+    background-color: rgb(255, 255, 255);
+    height: 20%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
+    margin-top:5%;
+}
+
+.conoscamonos{
+    font-size: 25px;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1px;
+    color: rgb(1, 141, 255);
+}
+.conoscamonos h1{
+}
+
+.conoscamonos p {
+    margin: 0;
+    
+}
+.textoPrincipal{
+    margin-top: 5%;
+    font-size: 18px;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
