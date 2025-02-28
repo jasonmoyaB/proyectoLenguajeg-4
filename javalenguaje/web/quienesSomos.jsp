@@ -23,33 +23,5 @@
             </nav>
         </header>
 
-        <div class="containerUs">
-            <div class="conoscamonos"> 
-                <h1>Nosotros</h1>
-                <p>¡Vamos a conocernos!</p>
-            </div>
-        </div>
-
-        <div class="textoPrincipal">
-            <p>
-                Bienvenido a <strong>CODINGRAPH</strong>, tu asistente personal para gestionar tareas y recordatorios 
-                de manera fácil y eficiente. Sabemos lo importante que es mantener el control de tus pendientes, 
-                por eso hemos creado una plataforma sencilla e intuitiva donde puedes agregar, organizar y visualizar 
-                tus tareas en un solo lugar.
-            </p>
-
-            <p>
-                Nuestro objetivo es ayudarte a optimizar tu tiempo y productividad, permitiéndote enfocarte en lo que 
-                realmente importa. Con nuestra herramienta, nunca olvidarás una tarea importante.
-            </p>
-
-            <div class="benefits">
-                <p>Crea tareas fácilmente</p>
-                <p>Organiza y gestiona tus pendientes</p>
-                <p>Accede desde cualquier lugar</p>
-            </div>
-        </div>
-
-
     </body>
 </html>

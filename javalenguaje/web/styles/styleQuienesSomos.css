@@ -70,7 +70,7 @@ header{
 
 .containerUs{
     background-color: rgb(255, 255, 255);
-    height: 20%;
+    height: 20px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.384);
     margin-top:5%;
 }
